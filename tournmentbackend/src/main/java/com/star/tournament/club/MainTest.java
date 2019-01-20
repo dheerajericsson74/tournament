@@ -30,6 +30,9 @@ public class MainTest {
         ManchesterUnited.matchResult(RealMadrid, 4, 2);
         
         System.out.println(ManchesterUnited.getName()+" played "+ManchesterUnited.played+" won :"+ManchesterUnited.won +" lost :"+ManchesterUnited.lost+" tied :"+ManchesterUnited.tied+" ranking :"+ManchesterUnited.ranking());
+        System.out.println(RealMadrid.getName()+" played "+RealMadrid.played+" won :"+RealMadrid.won +" lost :"+RealMadrid.lost+" tied :"+RealMadrid.tied+" ranking :"+RealMadrid.ranking());
+        
+        System.out.println(ManchesterUnited.compareTo(RealMadrid));
 	}
 
 }
