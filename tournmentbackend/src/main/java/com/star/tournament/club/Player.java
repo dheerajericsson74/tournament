@@ -1,6 +1,6 @@
 package com.star.tournament.club;
 
-public class Player<T> {
+public abstract class Player<T> {
 
 	
 	private String name;
